@@ -1,0 +1,31 @@
+golang-github-coreos-pkg (3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Tim Potter <tpot@hpe.com>  Thu, 09 Feb 2017 07:34:14 +1100
+
+golang-github-coreos-pkg (2-2) unstable; urgency=medium
+
+  * Add myself to Uploaders.
+  * debian/control: Remove golang-go dependency from -dev package.
+  * debian/control: Replace golang-go with golang-any in Build-Depends.
+
+ -- Martín Ferrari <tincho@debian.org>  Sun, 02 Oct 2016 22:27:03 +0000
+
+golang-github-coreos-pkg (2-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * (Build-)Depends += "golang-golang-x-crypto-dev".
+  * Standards-Version: 3.9.8.
+  * Vcs-Git URL to HTTPS.
+  * Updated "watch" file.
+  * Simplified "rules" through use of "DH_GOLANG_EXCLUDES".
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 19 Jun 2016 21:41:23 +1000
+
+golang-github-coreos-pkg (0.0~git20151028.0.2c77715-1) unstable; urgency=medium
+
+  * Initial release (Closes: #804108)
+
+ -- Tim Potter <tpot@hpe.com>  Thu, 05 Nov 2015 13:44:32 +1100
